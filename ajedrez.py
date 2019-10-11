@@ -12,7 +12,7 @@ def main():
                 archivo.close()
                 correcto=1
           except:
-                 print("no existe archivo o ruta erronea")
+                 print("no existe archivo o la ruta erronea")
     numero = queensattack(datos)
     if numero ==0:
         print("los valores para n y k deben estar en los siguientes rangos :if (0<n<=100000) and (0<=k<=100000): ")
